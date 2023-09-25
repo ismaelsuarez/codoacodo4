@@ -1,0 +1,59 @@
+/*Configuracion del dashboard con Mixins y Mixins con parametro*/
+
+@mixin colorNav($displayN, $borderN, $borderR, $backgroundC, $size) {
+  display: $displayN;
+  border: $borderN;
+  border-radius: $borderR;
+  background-color: $backgroundC;
+  width: $size;
+}
+
+@mixin perfilMixin($width, $height, $marginB, $marginT) {
+  width: $width;
+  height: $height;
+  margin-bottom: $marginB;
+  margin-top: $marginT;
+}
+
+@mixin tituloMixi {
+  display: inline-block;
+  border: 3px $borderColor solid;
+  padding: 10px;
+  border-radius: 10px;
+  color: $fontColor;
+  background-color: $colorMain;
+  position: relative;
+}
+
+@mixin recuadroForm {
+  border-radius: 20px;
+  border: 2px $borderColor solid;
+  color: $fontColor;
+  background-color: $boxGeneral;
+  padding: 5% 10% 5% 10%;
+  margin-right: 20px;
+}
+
+.colorNav {
+  @include colorNav(
+    inline-block,
+    2px $borderColor solid,
+    10px,
+    $navBarPerfil,
+    200px
+  );
+}
+
+.imgPerfil {
+    @include perfilMixin(70px, 70px, 20px, 10px);
+  }
+  
+.recuadro form {
+  @include recuadroForm;
+}
+
+.titulo {
+  @include tituloMixi;
+}
+
+/*Fin de la configuracion del dashboard*/

@@ -1,0 +1,95 @@
+/*desktop*/
+@media screen and (min-width: 1024px) {
+  /* Configuracion del NavBar */
+
+  .navBar {
+    div {
+      ul {
+        li {
+          display: inline-block;
+          margin-top: 10%;
+        }
+      }
+    }
+
+    img {
+      margin-top: 10%;
+      margin-left: 10%;
+      width: auto;
+      height: auto;
+    }
+  }
+
+  .btnMarcacion1 {
+    border: 3px $borderColor solid;
+  }
+
+  /* Fin de la configuracion del NavBar*/
+
+  /*Configurcion de la pagina index*/
+
+  .contenedor {
+    div {
+      h1 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+  /* Fin de la configuracion de la pagina del index*/
+
+  /*Incio de la configuracion de la pagina Clientes*/
+
+  .clientes,
+  .imgBack {
+    padding-bottom: 1%;
+  }
+
+  /*Fin de la configuracion de la pagina Clientes*/
+
+  /*Inicio de la configuracion de la pagina Contacto*/
+
+  .cajaContacto h2 {
+    font-size: 20px;
+  }
+
+  .divModi {
+    font-size: 16px;
+  }
+
+  .cajaContacto div {
+    font-size: 20px;
+  }
+
+  /*Fin de la configuracion de la pagina Contacto*/
+
+  /* Inicio de la configuracion de la pagina Login */
+
+  .loginCaja {
+    padding-bottom: 8%;
+
+    h1 {
+      font-size: 24px;
+    }
+  }
+
+  .btn {
+    font-size: 16px;
+  }
+
+  /* Fin de la configuracion de la pagina Login*/
+
+  /*Configuracion pagina del perfil*/
+
+  .imgPerfil {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  /*Fin de la configuracion de la pagina de Perfil*/
+}

@@ -1,0 +1,288 @@
+/*Configurcion de la pagina index*/
+.contenedor {
+  div {
+    h1 {
+      display: inline-block;
+      border: 3px $borderColor solid;
+      padding: 10px;
+      border-radius: 10px;
+      color: $fontColor;
+      background-color: $colorMain;
+      position: relative;
+    }
+
+    p {
+      border: 3px $borderColor solid;
+      border-radius: 5px;
+      color: $fontColor;
+      padding: 2%;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-bottom: 15%;
+      font-size: 24px;
+      background-color: $boxGeneral;
+      font-family: $fontMain;
+      opacity: 0.8;
+    }
+
+    padding: 1%;
+    text-align: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+}
+/* Fin de la configuracion de la pagina del index*/
+/*Inicio de la configuracion de la pagina servicio*/
+
+.servicioCentral {
+  padding: 2%;
+  text-align: center;
+}
+
+.divBorder {
+  text-align: center;
+  align-content: center;
+  position: relative;
+
+  img {
+    border: 3px $colorMain solid;
+  }
+}
+
+.servicios {
+  img {
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    opacity: 0.9;
+    position: relative;
+  }
+
+  div {
+    h2,
+    h1 {
+      display: inline-block;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+      width: auto;
+      color: $fontColor;
+      background-color: $colorMain;
+      border: 3px $borderColor solid;
+      position: relative;
+      font-family: $fontMain;
+    }
+  }
+}
+
+.serviciosTarjeta {
+  display: inline-block;
+  border-radius: 10px;
+  width: 20rem;
+  height: 10rem;
+  padding: 10px;
+  margin: 10px;
+  color: $fontColor;
+  text-align: center;
+  background-color: $boxGeneral;
+  border: 3px $borderColor solid;
+  opacity: 0.9;
+  position: relative;
+}
+
+.servicios img {
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+  opacity: 0.9;
+  position: relative;
+}
+
+.sectionCurso {
+  div {
+    background-color: $boxGeneral;
+    display: block;
+    text-align: center;
+    color: $fontColor;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  h2 {
+    display: block;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: auto;
+    color: $fontColor;
+    background-color: $colorMain;
+    border: 3px $borderColor solid;
+    position: relative;
+  }
+
+  table {
+    display: inline-block;
+    align-content: center;
+    position: relative;
+    td {
+      display: inline-block;
+      position: relative;
+      border: 1px $boxGeneral solid;
+      background-color: blanchedalmond;
+    }
+  }
+}
+/*Fin de la configuracion de la pagina servicio*/
+/*Incio de la configuracion de la pagina Clientes*/
+
+.divCentral {
+  text-align: center;
+}
+
+.clientes h1 {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  color: $fontColor;
+  background-color: $colorMain;
+  border: 3px $borderColor solid;
+  position: relative;
+}
+
+.clientesTarjeta {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 1%;
+  margin: 1%;
+  border: 1%;
+  text-align: center;
+  background-color: $boxGeneral;
+  border: 3px $borderColor solid;
+  opacity: 0.9;
+  position: relative;
+
+  img {
+    align-content: center;
+    position: relative;
+    width: 75%;
+    height: 75%;
+  }
+}
+
+.filtro {
+  background-color: $boxGeneral;
+  opacity: 0.9;
+  height: 100%;
+}
+/*Fin de la configuracion de la pagina Clientes*/
+/*Inicio de la configuracion de la pagina Contacto*/
+
+.cajaContacto {
+  h1 {
+    display: inline-block;
+    text-align: center;
+    border: 3px $borderColor solid;
+    padding: 10px;
+    margin: 2% 15% 2% 15%;
+    border-radius: 10px;
+    color: $fontColor;
+    background-color: $colorMain;
+    position: relative;
+  }
+
+  form {
+    color: $fontColor;
+    position: relative;
+  }
+  iframe {
+    border-radius: 2%;
+    border: 3px $borderColor solid;
+    margin-top: 1%;
+    width: 600px;
+    height: 450px;
+  }
+
+  h2 {
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    border: 3px $borderColor solid;
+    width: auto;
+    color: $fontColor;
+    background-color: $colorMain;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+  }
+}
+
+.divModi {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: $fontColor;
+  background-color: $boxGeneral;
+  opacity: 0.8;
+  text-align: center;
+  position: relative;
+}
+
+
+.cajaContacto div {
+  margin-right: 20%;
+  padding-bottom: 46px;
+  font-size: 20px;
+}
+/*Fin de la configuracion de la pagina Contacto*/
+/* Inicio de la configuracion de la pagina Blog */
+
+/*Fin de la configuracion de la pagina Blog*/
+/* Inicio de la configuracion de la pagina Login */
+
+.loginCaja {
+  form {
+    border: 1px $borderColor solid;
+    color: $fontColor;
+    background-color: $boxGeneral;
+    opacity: 0.9;
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+.campo {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.loginCaja h1 {
+  display: inline-block;
+  text-align: center;
+  border: 3px $borderColor solid;
+  padding: 10px;
+  margin: 2% 30% 2% 30%;
+  border-radius: 10px;
+  color: $fontColor;
+  background-color: $colorMain;
+  position: relative;
+}
+/* Fin de la configuracion de la pagina Login*/
+/*Configuracion del dashboard con Mixins y Mixins con parametro*/
+.contenedorPerfil {
+  padding-left: 12%;
+}
+
+.imgIco {
+  width: 20%;
+  height: 20%;
+}
+
+.recuadro {
+  background-image: $backgroundGradient;
+}
+/*Fin de la configuracion del dashboard*/

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Podes gestionar tu perfil y mucho mas">
+    <!-- CSS only -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <title>Perfil</title>
+</head>
+
+<body>
+    <!-- Configuracion del NavBar -->
+    <header>
+        <nav class="navbar navbar-expand-lg headerBack">
+            <div class="container-fluid headerBack">
+                <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-auto " id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2">
+                        <li><a class="btn" href="../index.html">Inicio</a></li>
+                        <li><a class="btn" href="servicios.html">servicios</a></li>
+                        <li><a class="btn" href="clientes.html">clientes</a></li>
+                        <li><a class="btn" href="contactos.html">Contactos</a></li>
+                        <li><a class="btn" href="blog.html">V-Blog</a></li>
+                        <li><a class="btn btnMarcacion1" href="../index.html">Cerrar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Fin de la configuracion del NavBar -->
+    </header>
+    <main class="gridDashboard recuadro">
+        <section class="menu text-center colorNav">
+            <nav>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <div>
+                                    <img class="imgPerfil" src="../img/logo_admin.ico" alt="logo_admin">
+                                </div>
+                            </div>
+                            <ul class="navbar-nav d-grid gap-3">
+                                <li> <a class="btn btnMarcacion " href="perfil.html">Perfil</a></li>
+                                <li> <a class="btn" href="pagos.html">Pagos</a></li>
+                                <li> <a class="btn" href="facturas.html">Facturas</a></li>
+                                <li> <a class="btn" href="archivos.html">Archivos</a></li>
+                                <li> <a class="btn" href="mensajes.html">Mensajes</a></li>
+                                <li> <a class="btn" href="reclamos.html">Reclamos</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section class="perfil">
+            <div class="text-center">
+                <h1 class="titulo">Modificacion</h1>
+            </div>
+            <div class="contenedorPerfil">
+                <form class="form-white">
+                    <form>
+                        <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Nombre</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Apellido</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Dni</label>
+                            <div class="col-sm-10">
+                                <input type="number" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputPassword3" class="col-sm-2 col-form-label">Clave</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword3">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputPassword3" class="col-sm-2 col-form-label">Repetir el Clave</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputPassword3">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Cambio de foto</label>
+                            <div class="col-sm-10">
+                                <input type="file" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <fieldset class="row mb-3">
+                            <legend class="col-form-label col-sm-2 pt-0">Terminos</legend>
+                            <div class="col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                        value="option1" checked>
+                                    <label class="form-check-label" for="gridRadios1">
+                                        Acepto los terminos
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                        value="option2">
+                                    <label class="form-check-label" for="gridRadios2">
+                                        No acepto los terminos
+                                    </label>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <button type="submit" class="btn btn-primary">Guardar</button>
+                    </form>
+                </form>
+            </div>
+        </section>
+
+    </main>
+   <!--Configuracion del Footer-->
+   <footer class="bg-dark text-center text-white ">
+    <!-- Grid container -->
+    <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/garciasalomonGS" target="_blank"
+                role="button"><i class="fab fa-facebook-f"></i></a>
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/?lang=es" target="_blank"
+                role="button"><i class="fab fa-twitter"></i></a>
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/estudiogarciasalomon" target="_blank"
+                role="button"><i class="fab fa-instagram"></i></a>
+
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/" target="_blank"
+                role="button"><i class="fab fa-linkedin-in"></i></a>
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Form -->
+        <section>
+            <form>
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                    <!--Grid column-->
+                    <div class="col-auto">
+                        <p class="pt-2">
+                            <strong>newsletter</strong>
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-5 col-12">
+                        <!-- Email input -->
+                        <div class="form-outline form-white mb-4">
+                            <input type="email" id="form5Example21" class="form-control" />
+                            <label class="form-label" for="form5Example21">Ingrese su Email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-auto">
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-outline-light mb-4">
+                            Subscribe
+                        </button>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </form>
+        </section>
+        <!-- Section: Form -->
+        <!-- Section: Links -->
+        <section>
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase fw-bold mb-4">Enlace Interno</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="../index.html" class="text-white">Inicio</a></li>
+                        <li><a href="servicios.html" class="text-white">servicios</a></li>
+                        <li><a href="clientes.html" class="text-white">clientes</a></li>
+                        <li><a href="contactos.html" class="text-white">Contactos</a></li>
+                        <li><a href="blog.html" class="text-white">V-Blog</a></li>
+                        <li><a href="login.html" class="text-white">Login</a></li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase fw-bold mb-4">Enlace externo</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="https://www.afip.gob.ar/landing/default.asp" class="text-white"
+                                target="_blank">AFIP</a></li>
+                        <li><a href="https://www.anses.gob.ar/" class="text-white" target="_blank">ANSES</a></li>
+                        <li><a href="https://www.atm.mendoza.gov.ar/portalatm/portalatm.jsp" class="text-white"
+                                target="_blank">ATM</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase fw-bold mb-4">
+                        Contacto
+                    </h5>
+                    <p><i class="fas fa-home me-3"></i>Mendoza 736, Las Heras </p>
+                    <p>
+                        <i class="fas fa-envelope me-3"></i>info@example.com
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> 2616947700</p>
+                </div>
+                <!--Grid column-->
+                                   
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <div class="botonWhatsApp">
+                        <a href="https://wa.me/5492616947700?text=" target="_blank"><img
+                                src="https://storage.googleapis.com/m-infra.appspot.com/public/whatsapp/Whatsapp_logo.svg"
+                                alt="logo_whatsapp"></a>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 mb-12 mb-md-0 modifDiv">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3351.434867813467!2d-68.82457608371337!3d-32.86021177485025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e08c8996dda0b%3A0x2cb3e5dea67661e3!2sMathus%20Hoyos%20736%2C%20Las%20Heras%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1661387781715!5m2!1ses-419!2sar"
+                        width="10" height="10" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+            <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+    <!-- Copyright -->
+    <div class="text-center p-3 centradoP" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-white" href="#">EstudioContable</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+<script src="https://kit.fontawesome.com/ac484d389e.js" crossorigin="anonymous"></script>
+<!--Fin configuracion del Footer-->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

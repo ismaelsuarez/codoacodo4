@@ -1,0 +1,29 @@
+/* Configuracion del NavBar */
+.headerBack {
+  display: block;
+  background-color: $colorMain;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  margin-right: 10px;
+
+  div {
+    ul {
+      li {
+        display: inline-block;
+        margin-top: 10%;
+      }
+    }
+  }
+
+  img {
+    border-radius: 100%;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: auto;
+    height: auto;
+  }
+}
+/* Fin de la configuracion del NavBar*/

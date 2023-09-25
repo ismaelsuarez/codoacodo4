@@ -1,0 +1,70 @@
+/*Configuracion del grid general*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gridFhader {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: min-content min-content min-content;
+  grid-auto-flow: row;
+  grid-template-areas: "header header" "main   main" "footer footer";
+  font-family: "Courier New", Courier, monospace;
+}
+
+header {
+  grid-area: header;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+/*Fin de la configuracion del general*/
+
+
+/*Grid Login*/
+.gridLogin {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: min-content min-content;
+  grid-template-areas: "titulo titulo" "form1 form2";
+
+  h1 {
+    grid-area: titulo;
+  }
+
+  .form1 {
+    grid-area: form1;
+  }
+
+  .form2 {
+    grid-area: form2;
+  }
+}
+/*Fin Grid Login*/
+/*Grid dashboard*/
+.gridDashboard {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-template-rows: min-content min-content;
+  grid-auto-flow: row;
+  grid-template-areas: "menu perfil" "menu perfil";
+}
+
+.menu {
+  grid-area: menu;
+}
+
+.perfil {
+  grid-area: perfil;
+}
+/*Fin Grid dashboard*/

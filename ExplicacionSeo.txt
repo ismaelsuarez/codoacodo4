@@ -1,0 +1,7 @@
+1-Se realizaron las description en todas las paginas y en las principales se agregaron tambien los keywords
+2-Se realizaron las modificaciones de Extend
+3-Se realizaron las modificaciones de Mixins
+4-Se realizaron las cargas de condicionales
+5-Se realizaron las carga de Maps utilizando tambien Maps/get
+6-Las imagenes estan son adqueridas de link de otras paginas
+7-Los videos son adqueridos de link directos de youtube por iframe

@@ -1,0 +1,35 @@
+/*Se usa extends para los Backgraound de los body de las paginas*/
+.styleExtend {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 5%;
+}
+.contenedor{
+    background-image: url("https://icei-formacion.com/wp-content/uploads/2019/11/3170-scaled.jpg");
+@extend .styleExtend;
+}
+.servicios {
+  background-image: url("https://estrategias-marketing-online.com/wp-content/uploads/C%C3%B3mo-ofrecer-servicios-contables-1024x541.jpg");
+  @extend .styleExtend;
+}
+.contenedorBox {
+  background-image: url("https://auren.com/co/wp-content/uploads/2021/11/Contadores-Publicos-2-2048x1367.jpg");
+  @extend .styleExtend;
+}
+
+.loginCaja {
+  background-image: url("https://www.uade.edu.ar/media/i4sn2cbq/61.jpg?crop=0.0000000000000001263187085796,0.31666666666666665,0,0.22543859649122813&cropmode=percentage&width=1900&height=580&rnd=132350565369900000");
+  @extend .styleExtend;
+}
+.clientes {
+  background-image: url("https://creantum.com/wp-content/uploads/2022/03/pexels-fauxels-3184418-scaled.jpg");
+  @extend .styleExtend;
+  padding-bottom: 1%;
+}
+
+.imgBack {
+  background-image: url("https://www.infobae.com/new-resizer/GxvZFCJC4ajXtkIzbFlrfrr5uSw=/992x558/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/06/14123648/empresa-3-copia.jpg");
+  @extend .styleExtend;
+  padding-bottom: 1%;
+}
+/*Fin de configuracion extends para los Backgraound de los body de las paginas*/
